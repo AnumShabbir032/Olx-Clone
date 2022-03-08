@@ -1,0 +1,124 @@
+.nav-bar-m{
+    margin: 0 100px;
+}
+.nav-icon ul{
+    display: flex;
+    margin: 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+.nav-icon li{
+    list-style: none;
+    margin: 0 10px;
+    /* text-align: center; */
+}
+.nav-icon:hover{
+    color: #0762ac;
+}
+.cont{
+    max-width: 1068px !important;
+}
+.input-box-1 ,.input-box-2{
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.input-box-1 input{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    /* color: black !important; */
+}
+.input-box-1 i{
+    font-size: 25px;
+    margin: 10px;
+}
+.input-box-2{
+    width: 500px;
+}
+.input-box-2 input{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    padding: 0 10px;
+    /* color: black !important; */
+}
+.input-box-2 i{
+    /* border: 1px solid red; */
+    font-size: 25px;
+    border-radius: 0 5px 5px 0;
+    padding: 12px;
+    background-color: black;
+    color: white;
+}
+.l-btn{
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration:underline;
+}
+.l-btn:hover{
+    text-decoration: none;
+}
+/* .div-btn{
+    border-image: url('./images/btn-img.png') !important;
+     border-image-source: url(./images/btn-img.png) ;
+} */
+.s-btn{
+   border-radius: 80px;
+   padding: 5px 20px;
+   font-size: small;
+   font-weight: bolder;
+   border: #00fff2  2px solid;
+   cursor: pointer;
+}
+.cross{
+    font-size: medium;
+}
+.all-nav-li  li a{
+    color: #0c0c0c !important;
+}
+.banner{
+    background-image: url(./images/banner.jpg) !important ;
+    background-position: center center;
+}
+.main-row{
+    display: flex !important;
+    justify-content: space-around !important;
+    margin: 10px 0;
+}
+/* .card-im img{
+    width: 100% !important;
+} */
+.img-box{
+    width: 280px;
+    height: 160px;
+}
+.p-text{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.h-3{
+    font-size: 20px;
+    font-weight: 700;
+}
+span{
+    font-size: 12px;
+    color: gray;
+}
+.body-card{
+    width: 280px !important;
+    height: 160px!important;
+    cursor: pointer;
+    /* border-left: 5px solid #ffd000; */
+}
+#card{
+    border-left: 5px solid #ffd000 ;
+}
